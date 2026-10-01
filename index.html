@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | MFM MRO 14</title>
+  <meta name="description" content="Mountain of Fire and Miracles Ministries MRO 14 — a house of prayer, deliverance, and restoration.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 font-sans text-slate-900">
+
+  <!-- Announcement bar -->
+  <div class="fixed top-0 left-0 z-50 w-full border-b border-purple-900 bg-purple-950 px-4 py-2 text-xs text-white">
+    <div class="mx-auto flex max-w-screen-xl items-center justify-between gap-4">
+      <span class="font-medium tracking-wide">
+        SUNDAY SERVICE: 6:30 AM WAT | SHILOH: WED 6:30 AM WAT
+      </span>
+      <span class="hidden items-center gap-2 font-semibold text-amber-400 sm:flex">
+        <span class="h-2 w-2 animate-pulse rounded-full bg-amber-400"></span>
+        LIVE BROADCAST AVAILABLE
+      </span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="fixed top-[33px] left-0 z-40 w-full border-b border-slate-200 bg-white shadow-sm">
+    <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+
+      <a href="index.html" class="flex items-center space-x-3 no-underline">
+        <img src="images/logo.jpeg" alt="Mountain of Fire and Miracles Ministries logo" class="h-10 w-10 rounded-full border-2 border-purple-800 bg-white object-cover">
+        <div class="flex flex-col">
+          <span class="font-serif text-xl font-bold leading-none tracking-tight text-purple-950">MFM MRO 14</span>
+          <span class="mt-0.5 text-[9px] font-semibold uppercase tracking-wider text-slate-600">Mountain of Fire &amp; Miracles Ministries</span>
+        </div>
+      </a>
+
+      <button id="menu-toggle" type="button"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-slate-700 hover:bg-purple-50 focus:outline-none focus:ring-2 focus:ring-purple-800 md:hidden"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <nav id="navbar-default" class="hidden w-full md:block md:w-auto">
+        <ul class="mt-4 flex flex-col rounded-lg border border-slate-100 bg-slate-50 p-4 text-sm font-semibold md:mt-0 md:flex-row md:items-center md:space-x-8 md:border-0 md:bg-white md:p-0">
+          <li><a href="index.html" class="nav-link is-active" aria-current="page">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="ministries.html" class="nav-link">Ministries</a></li>
+          <li><a href="sermons.html" class="nav-link">Sermons</a></li>
+          <li><a href="events.html" class="nav-link">Events</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li>
+            <a href="https://www.youtube.com/@mfmsuruleremegaregion" target="_blank" rel="noopener noreferrer"
+               class="mt-2 inline-block rounded bg-purple-800 px-4 py-2 text-center font-bold text-white shadow-sm transition-colors hover:bg-purple-900 md:mt-0">
+              WATCH LIVE
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+
+    <!-- Hero -->
+    <section class="hero-section">
+      <div class="hero-overlay"></div>
+      <img src="images/MFM_2.jpg" alt="Sunday worship service at MFM MRO 14" class="hero-bg-img">
+
+      <div class="hero-content">
+        <span class="hero-badge">Welcome to MFM MRO 14</span>
+        <h1 class="hero-title">A House of Prayer, Deliverance, and Restoration</h1>
+        <p class="hero-scripture">
+          “But upon Mount Zion shall be deliverance, and there shall be holiness; and the house of Jacob shall possess their possessions.” — Obadiah 1:17
+        </p>
+        <div class="hero-buttons">
+          <a href="https://www.youtube.com/@mfmsuruleremegaregion" target="_blank" rel="noopener noreferrer" class="btn btn-purple">Join Live Service</a>
+          <a href="ministries.html" class="btn btn-outline">Explore Ministries</a>
+        </div>
+      </div>
+
+      <div class="schedule-bar">
+        <div class="schedule-grid">
+          <div class="schedule-item">
+            <span class="schedule-day">Sundays</span>
+            <strong class="schedule-title">Glorious Service</strong>
+            <span class="schedule-time">6:30 AM WAT</span>
+          </div>
+          <div class="schedule-item">
+            <span class="schedule-day">Tuesdays</span>
+            <strong class="schedule-title">Breakthrough Clinic</strong>
+            <span class="schedule-time">10:00 AM WAT</span>
+          </div>
+          <div class="schedule-item">
+            <span class="schedule-day">Wednesdays</span>
+            <strong class="schedule-title">Shiloh Service</strong>
+            <span class="schedule-time">6:30 AM WAT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Welcome -->
+    <section id="about" class="bg-white py-16">
+      <div class="mx-auto grid max-w-screen-xl items-center gap-10 px-4 md:grid-cols-2">
+        <img src="images/choir.jpeg" alt="Children and youth choir during service" class="h-80 w-full rounded-xl object-cover shadow-md">
+        <div>
+          <p class="mb-2 text-sm font-bold uppercase tracking-widest text-purple-800">Who We Are</p>
+          <h2 class="font-serif text-3xl font-bold text-purple-950">Welcome to MFM MRO 14</h2>
+          <p class="mt-4 leading-relaxed text-slate-600">
+            Mountain of Fire and Miracles Ministries MRO 14 is a Bible-believing church committed to prayer, holiness, and the power of God. We gather to worship, to grow, and to help people walk in freedom through Jesus Christ.
+          </p>
+          <p class="mt-3 leading-relaxed text-slate-600">
+            Whether you are visiting for the first time or looking for a church family, you are welcome here.
+          </p>
+          <a href="about.html" class="mt-6 inline-block rounded bg-purple-800 px-5 py-3 font-bold text-white hover:bg-purple-900">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ministries preview -->
+    <section id="ministries" class="bg-slate-50 py-16">
+      <div class="mx-auto max-w-screen-xl px-4">
+        <div class="mb-10 text-center">
+          <p class="text-sm font-bold uppercase tracking-widest text-purple-800">Serve and Grow</p>
+          <h2 class="mt-2 font-serif text-3xl font-bold text-purple-950">Our Ministries</h2>
+        </div>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <a href="ministries.html#prayer" class="rounded-xl border-b-4 border-purple-800 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <h3 class="text-lg font-bold text-purple-950">Prayer Ministry</h3>
+            <p class="mt-2 text-sm text-slate-600">Intercession, night vigils, and prayer chains.</p>
+          </a>
+          <a href="ministries.html#youth" class="rounded-xl border-b-4 border-purple-800 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <h3 class="text-lg font-bold text-purple-950">Youth Fellowship</h3>
+            <p class="mt-2 text-sm text-slate-600">Discipleship and fellowship for young people.</p>
+          </a>
+          <a href="ministries.html#children" class="rounded-xl border-b-4 border-purple-800 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <h3 class="text-lg font-bold text-purple-950">Children Church</h3>
+            <p class="mt-2 text-sm text-slate-600">Bible lessons and care for children during service.</p>
+          </a>
+          <a href="ministries.html#women" class="rounded-xl border-b-4 border-purple-800 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <h3 class="text-lg font-bold text-purple-950">Women’s Fellowship</h3>
+            <p class="mt-2 text-sm text-slate-600">Prayer, teaching, and support for women.</p>
+          </a>
+          <a href="ministries.html#men" class="rounded-xl border-b-4 border-purple-800 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <h3 class="text-lg font-bold text-purple-950">Men’s Fellowship</h3>
+            <p class="mt-2 text-sm text-slate-600">Accountability, leadership, and brotherhood.</p>
+          </a>
+          <a href="ministries.html#outreach" class="rounded-xl border-b-4 border-purple-800 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <h3 class="text-lg font-bold text-purple-950">Outreach</h3>
+            <p class="mt-2 text-sm text-slate-600">Evangelism and community care.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest sermon -->
+    <section id="sermons" class="bg-white py-16">
+      <div class="mx-auto grid max-w-screen-xl items-center gap-10 px-4 md:grid-cols-2">
+        <img src="images/MFM_2.jpg" alt="Worship service at MFM MRO 14" class="h-80 w-full rounded-xl object-cover shadow-md">
+        <div>
+          <p class="mb-2 text-sm font-bold uppercase tracking-widest text-purple-800">Word of God</p>
+          <h2 class="font-serif text-3xl font-bold text-purple-950">Latest Sermon</h2>
+          <p class="mt-4 leading-relaxed text-slate-600">
+            Join our live broadcasts and catch up on recent messages from MFM MRO 14. Watch on YouTube and share the Word with family and friends.
+          </p>
+          <a href="https://www.youtube.com/@mfmsuruleremegaregion" target="_blank" rel="noopener noreferrer"
+             class="mt-6 inline-block rounded bg-purple-800 px-5 py-3 font-bold text-white hover:bg-purple-900">Watch Now</a>
+          <a href="sermons.html" class="mt-6 ml-3 inline-block rounded border-2 border-purple-800 px-5 py-3 font-bold text-purple-800 hover:bg-purple-50">All Sermons</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events preview -->
+    <section id="events" class="bg-slate-50 py-16">
+      <div class="mx-auto max-w-screen-xl px-4">
+        <div class="mb-10 text-center">
+          <p class="text-sm font-bold uppercase tracking-widest text-purple-800">Coming Up</p>
+          <h2 class="mt-2 font-serif text-3xl font-bold text-purple-950">Weekly Gatherings</h2>
+        </div>
+        <div class="grid gap-6 md:grid-cols-3">
+          <article class="rounded-xl bg-white p-6 shadow-sm">
+            <p class="text-xs font-bold uppercase tracking-widest text-purple-800">Sunday</p>
+            <h3 class="mt-2 text-xl font-bold text-purple-950">Glorious Service</h3>
+            <p class="mt-2 text-sm text-slate-600">Worship, the Word, and prayer. 6:30 AM WAT.</p>
+          </article>
+          <article class="rounded-xl bg-white p-6 shadow-sm">
+            <p class="text-xs font-bold uppercase tracking-widest text-purple-800">Tuesday</p>
+            <h3 class="mt-2 text-xl font-bold text-purple-950">Breakthrough Clinic</h3>
+            <p class="mt-2 text-sm text-slate-600">Prayer for healing and breakthrough. 10:00 AM WAT.</p>
+          </article>
+          <article class="rounded-xl bg-white p-6 shadow-sm">
+            <p class="text-xs font-bold uppercase tracking-widest text-purple-800">Wednesday</p>
+            <h3 class="mt-2 text-xl font-bold text-purple-950">Shiloh Service</h3>
+            <p class="mt-2 text-sm text-slate-600">A midweek meeting in God’s presence. 6:30 AM WAT.</p>
+          </article>
+        </div>
+        <div class="mt-8 text-center">
+          <a href="events.html" class="inline-block rounded bg-purple-800 px-5 py-3 font-bold text-white hover:bg-purple-900">View All Events</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit -->
+    <section class="bg-purple-950 py-16 text-white">
+      <div class="mx-auto max-w-screen-xl px-4 text-center">
+        <h2 class="font-serif text-3xl font-bold">Plan Your Visit</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-purple-100">
+          Come worship with us. If you need directions, service times, or want to send a prayer request, we would be glad to hear from you.
+        </p>
+        <a href="contact.html" class="mt-6 inline-block rounded bg-white px-6 py-3 font-bold text-purple-900 hover:bg-purple-100">Contact Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-purple-900 bg-purple-950 text-purple-100">
+    <div class="mx-auto grid max-w-screen-xl gap-8 px-4 py-12 md:grid-cols-3">
+      <div>
+        <p class="font-serif text-lg font-bold text-white">MFM MRO 14</p>
+        <p class="mt-2 text-sm">Mountain of Fire and Miracles Ministries. A house of prayer, deliverance, and restoration.</p>
+      </div>
+      <div>
+        <p class="font-bold text-white">Quick Links</p>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="about.html" class="hover:text-amber-300">About Us</a></li>
+          <li><a href="ministries.html" class="hover:text-amber-300">Ministries</a></li>
+          <li><a href="sermons.html" class="hover:text-amber-300">Sermons</a></li>
+          <li><a href="events.html" class="hover:text-amber-300">Events</a></li>
+          <li><a href="contact.html" class="hover:text-amber-300">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-bold text-white">Service Times</p>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li>Sunday Glorious Service — 6:30 AM WAT</li>
+          <li>Tuesday Breakthrough Clinic — 10:00 AM WAT</li>
+          <li>Wednesday Shiloh — 6:30 AM WAT</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-purple-900 px-4 py-4 text-center text-xs text-purple-300">
+      &copy; 2026 MFM MRO 14. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
